@@ -1,4 +1,4 @@
-let api = 'http://www.omdbapi.com/?apikey=cf2dfa76&t='
+let api = 'https://www.omdbapi.com/?apikey=cf2dfa76&t='
 
 //find movies on pressing "enter"
 document.getElementById("search").addEventListener("keypress", function(event) {
