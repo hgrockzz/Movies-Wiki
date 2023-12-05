@@ -45,6 +45,7 @@ body {
 }
 .movie-info{
     padding: 50px 0;
+    flex-wrap: wrap-reverse;
 }
 .movie-text{
     width: 40vw;
@@ -78,4 +79,25 @@ body {
     color: black;
     border-radius: 10px;
     text-decoration: none;
+}
+
+/* responsive */
+@media(max-width:600px){
+    .search{
+        width: 300px;
+        padding: 7px 7px;
+        font-size: 17px;
+    }
+    .btn{
+        padding: 7px 20px;
+        font-size: 17px;
+    }
+    .movie-text{
+        width: 90vw;
+    }
+    .movie-text h3{
+        font-size: 35px;
+    }.movie-text p{
+        font-size: 17px;
+    }
 }
