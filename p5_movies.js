@@ -21,6 +21,7 @@ function findMovie(){
         document.getElementById('title').innerText = data.Title + " (" + data.Year + ")";
         document.getElementById('desc').innerText = data.Plot;
         document.getElementById('director').innerText = data.Director;
+        document.getElementById('actor').innerText = data.Actors;
         document.getElementById('genre').innerText = data.Genre;
         document.getElementById('imdb').innerText = data.imdbRating + " ⭐";
         document.getElementById('poster').src = data.Poster;

@@ -74,6 +74,9 @@ body {
     font-weight: 500;
     font-size: 18px;
 }
+.genre{
+    bottom: 0;
+}
 .trailer{
     display: inline-block;
     color: black;
